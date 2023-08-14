@@ -14,13 +14,18 @@ available_languages = {
     # Agregar más idiomas si es necesario
 }
 
-st.set_page_config(page_title='TTS Audiobook Maker', page_icon='https://i.postimg.cc/mk0CgTnh/logo-transparent-200.png',
-                   layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(
+    page_title='TTS Audiobook Maker',
+    page_icon='./images/logo.jpg', 
+    layout='wide',
+    initial_sidebar_state='expanded'
+)
+
 
 st.title('Audio Book Maker')
 st.header(
     "[![GitHub release ("
-    "latest by date)]()]("
+    "latest by date)](https://img.shields.io/github/v/release/Oliver369X/TTS_Audiobook_Maker)]("
     "https://github.com/Oliver369X/TTS_Audiobook_Maker)")
 st.header('Preview Uploaded Document')
 st.warning('Before converting, be sure to download any converted content or you will need to reconvert.')
